@@ -1,13 +1,13 @@
 # TwoConnectedTanks GUI Launcher
 
 A small **PyQt6 desktop application** for launching a compiled OpenModelica
-`TwoConnectedTanks` simulation. It provides an executable picker, start/stop
+simulation. It provides an executable picker, start/stop
 time inputs, a Run button, and a live console that streams the simulation
 output. The launcher is the Python half of a FOSSEE / OpenModelica internship
 screening task; the compiled `.exe` is produced separately by the user in
 OMEdit on Windows (see below).
 
-![Running app](docs/screenshot.png)
+
 
 ## Prerequisites
 
