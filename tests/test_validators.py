@@ -1,7 +1,4 @@
-"""Unit tests for :mod:`core.validators`.
-
-Run with:: python -m unittest discover tests -v
-"""
+\
 
 from __future__ import annotations
 
@@ -58,7 +55,7 @@ class TestValidateTimeRange(unittest.TestCase):
 
 
 class TestValidateExecutable(unittest.TestCase):
-    """Tests for the executable-path validator."""
+    
 
     def test_empty_path(self) -> None:
         ok, msg = validate_executable("")

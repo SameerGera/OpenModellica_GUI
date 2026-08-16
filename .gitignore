@@ -5,9 +5,3 @@ venv/
 build/
 dist/
 *.egg-info/
-resources/model/*.exe
-resources/model/*.dll
-resources/model/*_init.xml
-resources/model/*.csv
-resources/model/*.mat
-resources/model/*.log
